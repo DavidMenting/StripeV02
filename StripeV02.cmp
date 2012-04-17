@@ -1,0 +1,178 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Fri 13 Apr 2012 07:53:44 PM CEST
+
+BeginCmp
+TimeStamp = /4F0350E3;
+Reference = C1;
+ValeurCmp = 22u;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0350EB;
+Reference = C2;
+ValeurCmp = 22u;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0350EE;
+Reference = C3;
+ValeurCmp = 22u;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0350F9;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F0350FD;
+Reference = C5;
+ValeurCmp = 6.8n;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D50FF;
+Reference = C6;
+ValeurCmp = 6.8nF;
+IdModule  = SM0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3E7882;
+Reference = C7;
+ValeurCmp = 100uF;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D2FD9;
+Reference = DC1;
+ValeurCmp = DC_SOCKET;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D55DC;
+Reference = J1;
+ValeurCmp = USB_SOCKET;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D57AC;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F081505;
+Reference = L1;
+ValeurCmp = INDUCTOR;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F886867;
+Reference = L2;
+ValeurCmp = INDUCTOR;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D4885;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D4894;
+Reference = P2;
+ValeurCmp = CONN_4;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3FB0F5;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3FB104;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3FB113;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F40FC51;
+Reference = P6;
+ValeurCmp = CONN_6;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F40FA77;
+Reference = P7;
+ValeurCmp = CONN_2;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F03510B;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D2AE4;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F035107;
+Reference = R6;
+ValeurCmp = 10K;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D510E;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D39A5;
+Reference = regul1;
+ValeurCmp = NCP3170;
+IdModule  = $noname;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F3D46A0;
+Reference = U1;
+ValeurCmp = CARAMBOLA;
+IdModule  = $noname;
+EndCmp
+
+EndListe
