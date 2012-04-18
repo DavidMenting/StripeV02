@@ -1,17 +1,5 @@
-# EESchema Netlist Version 1.1 created  Fri 13 Apr 2012 07:52:28 PM CEST
+# EESchema Netlist Version 1.1 created  Wed 18 Apr 2012 12:28:29 PM CEST
 (
- ( /4F40FC51 $noname  P6 CONN_6 {Lib=CONN_6}
-  (    1 N-000004 )
-  (    2 N-000020 )
-  (    3 N-000006 )
-  (    4 N-000002 )
-  (    5 N-000018 )
-  (    6 N-000003 )
- )
- ( /4F40FA77 $noname  P7 CONN_2 {Lib=CONN_2}
-  (    1 N-000021 )
-  (    2 N-000007 )
- )
  ( /4F3FB113 $noname  P5 CONN_1 {Lib=CONN_1}
   (    1 /3.3VD )
  )
@@ -21,43 +9,25 @@
  ( /4F3FB0F5 $noname  P3 CONN_1 {Lib=CONN_1}
   (    1 GND )
  )
- ( /4F3E7882 $noname  C7 100uF {Lib=CAPAPOL}
-  (    1 /5VD )
-  (    2 GND )
- )
  ( /4F3D57AC $noname  K1 CONN_3 {Lib=CONN_3}
   (    1 /3.3VD )
-  (    2 N-000008 )
+  (    2 N-000025 )
   (    3 GND )
  )
  ( /4F3D55DC $noname  J1 USB_SOCKET {Lib=USB_SOCKET}
   (    1 /5VD )
-  (    2 N-000016 )
-  (    3 N-000009 )
+  (    2 N-000032 )
+  (    3 ? )
   (    4 GND )
-  (    5 ? )
+  (    5 N-000007 )
  )
  ( /4F3D510E $noname  R7 10K {Lib=R}
   (    1 GND )
-  (    2 N-000017 )
+  (    2 N-000007 )
  )
  ( /4F3D50FF $noname  C6 6.8nF {Lib=C}
-  (    1 GND )
-  (    2 N-000017 )
- )
- ( /4F3D4894 $noname  P2 CONN_4 {Lib=CONN_4}
-  (    1 /5VD )
-  (    2 /CLOCK )
-  (    3 /DATA )
-  (    4 GND )
- )
- ( /4F3D4885 $noname  P1 CONN_6 {Lib=CONN_6}
-  (    1 GND )
-  (    2 ? )
-  (    3 ? )
-  (    4 /RX )
-  (    5 /TX )
-  (    6 ? )
+  (    1 N-000007 )
+  (    2 GND )
  )
  ( /4F3D46A0 $noname  U1 CARAMBOLA {Lib=CARAMBOLA}
   (    1 GND )
@@ -84,85 +54,163 @@
   (   22 /3.3VD )
   (   23 /3.3VD )
   (   24 GND )
-  (   25 N-000003 )
-  (   26 N-000018 )
-  (   27 N-000002 )
-  (   28 N-000006 )
-  (   29 N-000020 )
-  (   30 N-000004 )
-  (   31 /DATA )
-  (   32 /CLOCK )
-  (   33 N-000007 )
-  (   34 N-000021 )
-  (   35 /TX )
-  (   36 /RX )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
   (   37 GND )
-  (   38 N-000009 )
-  (   39 N-000016 )
-  (   40 N-000008 )
+  (   38 ? )
+  (   39 N-000032 )
+  (   40 N-000025 )
  )
  ( /4F3D39A5 $noname  regul1 NCP3170 {Lib=NCP3170}
   (    1 GND )
   (    2 /5VD )
   (    3 GND )
-  (    4 N-000011 )
-  (    5 N-000012 )
+  (    4 N-000001 )
+  (    5 N-000028 )
   (    6 /5VD )
   (    7 /VSW )
-  (    8 /VSW )
+  (    8 /3.3VD )
  )
  ( /4F3D2FD9 $noname  DC1 DC_SOCKET {Lib=DC_SOCKET}
-  (    1 N-000010 )
-  (    2 GND )
-  (    3 GND )
+  (    1 N-000004 )
+  (    2 N-000002 )
+  (    3 N-000002 )
  )
- ( /4F3D2AE4 $noname  R5 10k {Lib=R}
+ ( /4F3D2AE4 $noname  R5 30k {Lib=R}
   (    1 /3.3VD )
-  (    2 N-000011 )
+  (    2 N-000001 )
  )
- ( /4F081505 $noname  L1 INDUCTOR {Lib=INDUCTOR}
-  (    1 /VSW )
-  (    2 /3.3VD )
+ ( /4F081505 $noname  L1 4R7 {Lib=INDUCTOR}
+  (    1 /3.3VD )
+  (    2 /VSW )
  )
- ( /4F03510B $noname  R1 10k {Lib=R}
-  (    1 N-000013 )
+ ( /4F03510B $noname  R1 4.99k {Lib=R}
+  (    1 N-000031 )
   (    2 GND )
  )
  ( /4F035107 $noname  R6 10K {Lib=R}
-  (    1 N-000011 )
+  (    1 N-000001 )
   (    2 GND )
  )
  ( /4F0350FD $noname  C5 6.8n {Lib=C}
-  (    1 N-000012 )
-  (    2 N-000013 )
+  (    1 N-000028 )
+  (    2 N-000031 )
  )
  ( /4F0350F9 $noname  C4 100n {Lib=C}
   (    1 /5VD )
   (    2 GND )
  )
- ( /4F0350EE $noname  C3 22u {Lib=C}
+ ( /4F0350EE $noname  C3 22µ {Lib=C}
   (    1 /3.3VD )
   (    2 GND )
  )
- ( /4F0350EB $noname  C2 22u {Lib=C}
+ ( /4F0350EB $noname  C2 22µ {Lib=C}
   (    1 /3.3VD )
   (    2 GND )
  )
- ( /4F0350E3 $noname  C1 22u {Lib=C}
+ ( /4F0350E3 $noname  C1 22µ {Lib=C}
   (    1 /5VD )
   (    2 GND )
  )
  ( /4F886867 $noname  L2 INDUCTOR {Lib=INDUCTOR}
-  (    1 N-000010 )
+  (    1 N-000004 )
   (    2 /5VD )
+ )
+ ( /4F8DDAA5 DIP14  IC1 ATTINY84-P {Lib=ATTINY84-P}
+  (    1 N-000033 )
+  (    2 ? )
+  (    3 N-000035 )
+  (    4 N-000037 )
+  (    5 N-000003 )
+  (    6 ? )
+  (    7 N-000024 )
+  (    8 N-000039 )
+  (    9 N-000036 )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 N-000034 )
+ )
+ ( /4F8DDAB4 $noname  C8 1µ {Lib=C}
+  (    1 N-000033 )
+  (    2 N-000034 )
+ )
+ ( /4F8DDAC3 $noname  R2 10K {Lib=R}
+  (    1 N-000035 )
+  (    2 N-000070 )
+ )
+ ( /4F8DDAD2 $noname  R3 10K {Lib=R}
+  (    1 N-000037 )
+  (    2 N-000070 )
+ )
+ ( /4F8DDCB6 $noname  L3 INDUCTOR {Lib=INDUCTOR}
+  (    1 N-000002 )
+  (    2 GND )
+ )
+ ( /4F8DE358 $noname  IC2 RFM12 {Lib=RFM12}
+  (    ~ N-000003 )
+ )
+ ( /4F8E94CC $noname  AVR1 CONN_3X2 {Lib=CONN_3X2}
+  (    1 N-000039 )
+  (    2 /3.3VD )
+  (    3 N-000036 )
+  (    4 N-000024 )
+  (    5 N-000037 )
+  (    6 GND )
+ )
+ ( /4F8E9E73 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000030 )
+ )
+ ( /4F8EA659 $noname  P2 UART1 {Lib=CONN_6}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /4F8EA668 $noname  P6 UART2 {Lib=CONN_6}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+ )
+ ( /4F8EA677 $noname  P7 I2C_PLUG {Lib=CONN_6}
+  (    1 N-000011 )
+  (    2 N-000010 )
+  (    3 N-000009 )
+  (    4 N-000027 )
+  (    5 N-000008 )
+  (    6 N-000012 )
+ )
+ ( /4F8EA686 $noname  P8 I2C_PLUG {Lib=CONN_6}
+  (    1 N-000011 )
+  (    2 N-000010 )
+  (    3 N-000009 )
+  (    4 N-000027 )
+  (    5 N-000008 )
+  (    6 N-000012 )
+ )
+ ( /4F3E7882 $noname  C7 100µ {Lib=CAPAPOL}
+  (    1 /5VD )
+  (    2 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C7
- CP*
- SM*
-$endlist
 $component R7
  R?
  SM0603
@@ -224,117 +272,156 @@ $component C1
  C?
  C1-1
 $endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/TX" "TX"
- P1 5
- U1 35
-Net 2 "" ""
- U1 27
- P6 4
-Net 3 "" ""
- P6 6
- U1 25
-Net 4 "" ""
- P6 1
- U1 30
-Net 5 "/CLOCK" "CLOCK"
- P2 2
- U1 32
-Net 6 "" ""
- P6 3
- U1 28
-Net 7 "" ""
- P7 2
- U1 33
-Net 8 "" ""
- K1 2
- U1 40
-Net 9 "" ""
- U1 38
- J1 3
-Net 10 "" ""
- L2 1
- DC1 1
-Net 11 "" ""
+Net 1 "" ""
+ R5 2
  regul1 4
  R6 1
- R5 2
-Net 12 "" ""
- C5 1
- regul1 5
-Net 13 "" ""
- R1 1
- C5 2
-Net 14 "/RX" "RX"
- U1 36
- P1 4
-Net 15 "/3.3VD" "3.3VD"
- P5 1
- K1 1
- U1 23
- R5 1
- L1 2
- U1 22
- C3 1
- C2 1
-Net 16 "" ""
- U1 39
- J1 2
-Net 17 "" ""
- R7 2
- C6 2
-Net 18 "" ""
- U1 26
- P6 5
-Net 19 "/DATA" "DATA"
- U1 31
- P2 3
-Net 20 "" ""
- U1 29
- P6 2
-Net 21 "" ""
- U1 34
- P7 1
-Net 23 "GND" "GND"
- K1 3
- R7 1
- J1 4
- U1 24
- U1 6
- U1 1
- P1 1
- P2 4
- regul1 3
- regul1 1
- U1 37
- U1 12
- C6 1
- C7 2
- P3 1
+Net 2 "" ""
+ L3 1
  DC1 2
  DC1 3
- C1 2
- C2 2
+Net 4 "" ""
+ L2 1
+ DC1 1
+Net 5 "GND" "GND"
+ C7 2
  C3 2
+ U1 37
+ C2 2
+ C1 2
+ L3 2
+ AVR1 6
+ U1 24
+ R7 1
  C4 2
  R6 2
  R1 2
-Net 35 "/VSW" "VSW"
- regul1 7
+ U1 1
+ P3 1
+ K1 3
+ J1 4
+ IC2 ~
+ U1 12
+ regul1 1
+ regul1 3
+ U1 6
+ C6 2
+Net 7 "" ""
+ J1 5
+ C6 1
+ R7 2
+Net 8 "" ""
+ P7 5
+ P8 5
+Net 9 "" ""
+ P7 3
+ P8 3
+Net 10 "" ""
+ P8 2
+ P7 2
+Net 11 "" ""
+ P7 1
+ P8 1
+Net 12 "" ""
+ P8 6
+ P7 6
+Net 24 "" ""
+ IC1 7
+ AVR1 4
+ IC2 ~
+Net 25 "" ""
+ K1 2
+ U1 40
+Net 27 "" ""
+ P7 4
+ P8 4
+Net 28 "" ""
+ regul1 5
+ C5 1
+Net 29 "/3.3VD" "3.3VD"
  L1 1
+ P5 1
+ U1 23
+ C3 1
+ C2 1
+ K1 1
  regul1 8
-Net 46 "/5VD" "5VD"
- L2 2
- J1 1
+ U1 22
+ AVR1 2
+ R5 1
+Net 30 "" ""
+ P1 1
+ IC2 ~
+Net 31 "" ""
+ C5 2
+ R1 1
+Net 32 "" ""
+ U1 39
+ J1 2
+Net 33 "" ""
+ IC1 1
+ C8 1
+Net 34 "" ""
+ IC1 14
+ C8 2
+Net 35 "" ""
+ R2 1
+ IC1 3
+ IC2 ~
+Net 36 "" ""
+ IC1 9
+ AVR1 3
+ IC2 ~
+Net 37 "" ""
+ IC1 4
+ AVR1 5
+ R3 1
+Net 39 "" ""
+ IC1 8
+ IC2 ~
+ AVR1 1
+Net 53 "/5VD" "5VD"
+ regul1 6
+ regul1 2
  U1 21
+ C4 1
+ L2 2
  C1 1
  C7 1
- regul1 2
  P4 1
- regul1 6
- P2 1
- C4 1
+ J1 1
+Net 70 "" ""
+ R3 2
+ R2 2
+ IC2 ~
+Net 78 "/VSW" "VSW"
+ regul1 7
+ L1 2
 }
 #End
